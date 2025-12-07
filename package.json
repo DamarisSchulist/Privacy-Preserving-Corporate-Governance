@@ -1,0 +1,74 @@
+{
+  "name": "fhevm-corporate-governance",
+  "version": "1.0.0",
+  "description": "Privacy-Preserving Corporate Governance System built with FHEVM - Confidential board voting using fully homomorphic encryption",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy:localhost": "hardhat run scripts/deploy-corporate-governance.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy-corporate-governance.js --network sepolia",
+    "deploy:zama": "hardhat run scripts/deploy-corporate-governance.js --network zama",
+    "verify": "hardhat verify",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "clean": "hardhat clean",
+    "node": "hardhat node",
+    "typechain": "typechain --target ethers-v6 --out-dir types './artifacts/contracts/**/*.json'",
+    "build": "npm run compile && npm run typechain",
+    "dev": "hardhat node"
+  },
+  "keywords": [
+    "fhevm",
+    "fhe",
+    "governance",
+    "voting",
+    "corporate",
+    "blockchain",
+    "privacy",
+    "encryption",
+    "zama",
+    "confidential",
+    "board-resolution",
+    "homomorphic-encryption",
+    "solidity",
+    "ethereum",
+    "hardhat"
+  ],
+  "author": "FHEVM Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@fhevm/hardhat-plugin": "^0.3.0",
+    "@fhevm/solidity": "^0.4.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@typechain/ethers-v6": "^11.1.2",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.6",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4",
+    "hardhat-deploy": "^0.11.45",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solhint": "^4.0.1",
+    "solidity-coverage": "^0.8.5",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamarisSchulist/CorporateGovernance"
+  },
+  "homepage": "https://corporate-governance.vercel.app",
+  "bugs": {
+    "url": "https://github.com/DamarisSchulist/CorporateGovernance/issues"
+  }
+}
