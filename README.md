@@ -13,6 +13,8 @@ This FHEVM example demonstrates a **confidential corporate governance system** w
 
 **Live Demo**: https://fhe-corporate-governance.vercel.app/
 
+**Demo Video Privacy-Preserving Corporate Governance.mp4**:https://streamable.com/dy7w3i
+
 **Contract Address (Sepolia)**: `0x13116d08546b78F5fDB7fA4544f778885B19A441`
 
 ## ✨ Key FHEVM Concepts Demonstrated
