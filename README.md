@@ -11,7 +11,7 @@ This FHEVM example demonstrates a **confidential corporate governance system** w
 - Only **final results are revealed** when voting concludes
 - **Complete audit trail** maintained on-chain for transparency
 
-**Live Demo**: https://corporate-governance.vercel.app
+**Live Demo**: https://fhe-corporate-governance.vercel.app/
 
 **Contract Address (Sepolia)**: `0x13116d08546b78F5fDB7fA4544f778885B19A441`
 
@@ -517,7 +517,7 @@ function castVote(...) external {
 - **GitHub**: https://github.com/zama-ai/fhevm
 
 ### This Project
-- **Live Demo**: https://corporate-governance.vercel.app
+- **Live Demo**: https://fhe-corporate-governance.vercel.app/
 - **GitHub**: https://github.com/DamarisSchulist/CorporateGovernance
 - **Contract (Sepolia)**: https://sepolia.etherscan.io/address/0x13116d08546b78F5fDB7fA4544f778885B19A441
 
